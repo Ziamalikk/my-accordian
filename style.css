@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(200, 192, 192);
+}
+
+.accordion {
+    margin: 80px;
+    font-size: 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.accordion-item {
+    margin: 8px;
+    border-radius: 50px;
+}
+
+.accordion-header {
+    background-color: black;
+    color: white;
+    width: 40vw;
+    height: 8vh;
+    padding: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    cursor: pointer;
+}
+
+.accordion-body {
+    color: antiquewhite;
+    background-color: grey;
+    width: 40vw;
+    height: 20vh;
+    padding: 20px;
+    display: none;
+    overflow: hidden;
+    transition: max-height 0.8s ease;
+}
+
+.accordion-body.active {
+    display: block;
+    max-height: 1000px;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    box-shadow: 10px 10px 10px gray;
+    color: wheat;
+    background-color: rgb(66, 54, 54);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 41, 41);
+}
+
+#add {
+    margin-left: 600px;
+    margin-bottom: 30px;
+}
+#remove {
+    margin-left: 600px;
+}
