@@ -1,4 +1,4 @@
-# Accordion Gallery
+# Accordion
 
 ## Description
 An interactive accordion gallery built with **HTML, CSS, and JavaScript**. This project showcases dynamic and responsive design with expandable and collapsible sections, smooth animations, and a user-friendly interface.
